@@ -1,0 +1,28 @@
+{
+  "name": "weatherapp",
+  "version": "1.0.0",
+  "description": "weather app",
+  "scripts": {
+    "dev": "webpack serve --mode development",
+    "build": "webpack --mode production"
+  },
+  "author": "Alfonso",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "core-js": "^3.18.3",
+    "regenerator-runtime": "^0.13.9"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^6.4.0",
+    "html-loader": "^2.1.2",
+    "html-webpack-plugin": "^5.4.0",
+    "style-loader": "^3.3.0",
+    "webpack": "^5.59.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.3.1"
+  }
+}

@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,shrink-to-fit=no"
+    />
+    <title>weatherApp</title>
+    <link rel="stylesheet" href="4cb33511904d65495a7e.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Arsenal&amp;display=swap"
+    />
+    <link rel="stylesheet" href="4075c4731db78eeb009c.css" />
+    <link rel="shortcut icon" href="#" />
+    <script defer="defer" src="main.bundle.js"></script>
+  </head>
+  <body
+    style="
+      font-family: Arsenal, sans-serif;
+      background: url(syuhei-inoue-fvgv3i4_uvI-unsplash.jpg) center/cover
+          no-repeat,
+        #fff;
+    "
+  >
+    <main>
+      <div class="container-fluid text-center mt-3">
+        <h1 class="display-6">Weather App</h1>
+      </div>
+      <div class="container">
+        <div class="row flex-column">
+          <div class="col text-center align-self-center">
+            <input
+              class="border rounded-pill search__box"
+              placeholder="UK Postcode or City"
+              name="locationSearchField"
+              required=""
+              style="padding: 1px 10px; text-align: center; margin-right: 5px"
+            /><button
+              class="btn btn-outline-primary active search__btn"
+              type="submit"
+              style="
+                color: #fff;
+                font-weight: 700;
+                font-family: Arsenal, sans-serif;
+                border-radius: 20px;
+                background: rgba(108, 156, 227, 0);
+                border-color: #fff;
+                padding: 1px 10px;
+                margin-left: 5px;
+              "
+            >
+              Button
+            </button>
+          </div>
+        </div>
+      </div>
+      <section>
+        <div
+          class="container mt-2"
+          style="
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 20px;
+            color: #fff;
+            text-shadow: 1px 1px 5px #000;
+            width: 295px;
+            box-shadow: 4px 4px 10px #000;
+          "
+        >
+          <h2 class="city__name" style="text-align: center; font-size: 25px">
+            City Name
+          </h2>
+          <div class="row">
+            <div class="col text-center">
+              <img class="img__icon" />
+              <p
+                class="weather__type"
+                style="font-size: 20px; font-weight: 700"
+              >
+                Weather type
+              </p>
+            </div>
+            <div class="col" style="text-align: center">
+              <p>Temperature</p>
+              <p class="temp__number" style="font-size: 50px">0</p>
+            </div>
+            <div class="col">
+              <p class="rain__mm" style="text-align: center">Rain</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="mb-3 section__three hidden">
+        <div
+          class="container mt-3"
+          style="
+            border-radius: 20px;
+            color: #fefefe;
+            text-shadow: 1px 1px 5px #000;
+          "
+        >
+          <div class="row d-flex justify-content-evenly">
+            <div
+              class="col-lg-2 text-center mb-2"
+              style="
+                border-color: #fefefe;
+                border-top-color: rgb(
+                  254,
+                  border-right-color 254,
+                  border-bottom-color 254
+                );
+                border-left-color: 254;
+                background: rgba(255, 255, 255, 0.2);
+                border-radius: 10px;
+                box-shadow: 3px 3px 10px #000;
+              "
+            >
+              <p class="today__date">Day</p>
+              <img
+                class="mb-2 today__icon"
+                style="max-width: 100px; max-height: 80px"
+              />
+              <p
+                class="mb-2 today__type"
+                style="font-size: 15px; font-weight: 700"
+              >
+                Weather type
+              </p>
+              <div class="row">
+                <div class="col">
+                  <p class="mb-2">Min</p>
+                  <p class="mb-2 today__min__number" style="font-size: 50px">
+                    0
+                  </p>
+                </div>
+                <div class="col">
+                  <p class="mb-2">Max</p>
+                  <p class="mb-2 today__max__number" style="font-size: 50px">
+                    0
+                  </p>
+                </div>
+              </div>
+              <p class="today__rain">Rain</p>
+            </div>
+            <div
+              class="col-lg-2 text-center mb-2"
+              style="
+                border-color: #fefefe;
+                border-top-color: rgb(
+                  254,
+                  border-right-color 254,
+                  border-bottom-color 254
+                );
+                border-left-color: 254;
+                background: rgba(255, 255, 255, 0.2);
+                border-radius: 10px;
+                box-shadow: 3px 3px 10px #000;
+              "
+            >
+              <p class="tomorrow__date">Day</p>
+              <img
+                class="mb-2 tomorrow__icon"
+                style="max-width: 100px; max-height: 80px"
+              />
+              <p
+                class="mb-2 tomorrow__type"
+                style="font-size: 15px; font-weight: 700"
+              >
+                Weather type
+              </p>
+              <div class="row">
+                <div class="col">
+                  <p class="mb-2">Min</p>
+                  <p class="mb-2 tomorrow__min__number" style="font-size: 50px">
+                    0
+                  </p>
+                </div>
+                <div class="col">
+                  <p class="mb-2">Max</p>
+                  <p class="mb-2 tomorrow__max__number" style="font-size: 50px">
+                    0
+                  </p>
+                </div>
+              </div>
+              <p class="tomorrow__rain">Rain</p>
+            </div>
+            <div
+              class="col-lg-2 text-center mb-2"
+              style="
+                border-color: #fefefe;
+                border-top-color: rgb(
+                  254,
+                  border-right-color 254,
+                  border-bottom-color 254
+                );
+                border-left-color: 254;
+                background: rgba(255, 255, 255, 0.2);
+                border-radius: 10px;
+                box-shadow: 3px 3px 10px #000;
+              "
+            >
+              <p class="pastTomo__date">Day</p>
+              <img
+                class="mb-2 pastTomo__icon"
+                style="max-width: 100px; max-height: 80px"
+              />
+              <p
+                class="mb-2 pastTomo__type"
+                style="font-size: 15px; font-weight: 700"
+              >
+                Weather type
+              </p>
+              <div class="row">
+                <div class="col">
+                  <p class="mb-2">Min</p>
+                  <p class="mb-2 pastTomo__min__number" style="font-size: 50px">
+                    0
+                  </p>
+                </div>
+                <div class="col">
+                  <p class="mb-2">Max</p>
+                  <p class="mb-2 pastTomo__max__number" style="font-size: 50px">
+                    0
+                  </p>
+                </div>
+              </div>
+              <p class="pastTomo__rain">Rain</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+    <script src="d04af32eb0d84a1a39b6.js"></script>
+    <script src="326370072a43a396dd7c.js"></script>
+  </body>
+</html>
