@@ -2,7 +2,7 @@
 
 const api = {
   key: '471d4cb3d37e4a118c4154637211810',
-  baseUrl: 'http://api.weatherapi.com/v1',
+  baseUrl: 'https://api.weatherapi.com/v1',
 };
 const section = document.querySelector('.section__three');
 const searchBox = document.querySelector('.search__box');
